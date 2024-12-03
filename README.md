@@ -1,4 +1,4 @@
-# IAN ALVAREZ ijalvarez@espe.edu.ec
+
 # Proyecto: Gestión de Estudiantes, Cursos e Inscripciones
 Repositorio para la gestión de estudiantes, cursos y sus inscripciones mediante el uso de Web Components.
 
@@ -137,4 +137,6 @@ El proyecto está organizado en los siguientes directorios:
 
 ## Conclusión
 Este proyecto es una aplicación web modular que permite gestionar estudiantes, cursos e inscripciones. Utiliza Web Components para crear componentes reutilizables, manejando la interacción con la base de datos mediante una API REST. El uso de componentes facilita la reutilización y la escalabilidad, permitiendo que la aplicación se pueda expandir fácilmente con nuevas funcionalidades en el futuro.
+
+# IAN ALVAREZ ijalvarez@espe.edu.ec
 
