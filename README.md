@@ -1,4 +1,4 @@
-
+https://github.com/IanAlvarezCordova/Proyecto1_PIC/tree/main
 # Proyecto: Gestión de Estudiantes, Cursos e Inscripciones
 Repositorio para la gestión de estudiantes, cursos y sus inscripciones mediante el uso de Web Components.
 
