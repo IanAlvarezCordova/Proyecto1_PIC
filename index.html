@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Alvarez Proyecto I</title>
+</head>
+<body>
+    <my-header></my-header>
+    <nav-bar></nav-bar>
+
+    <main id="app-content">
+       
+        <section id="inicio" class="app-section active">
+            <my-inicio></my-inicio>
+        </section>
+        <section id="estudiantes" class="app-section" style="display:none;">
+            
+            <estudiante-list api-url="http://localhost:8000/estudiantes"></estudiante-list>
+            
+            <estudiante-form api-url="http://localhost:8000/estudiantes"></estudiante-form>
+        </section>
+        <section id="cursos" class="app-section" style="display:none;">
+           
+            <curso-list api-url="http://localhost:8000/cursos"></curso-list>
+            <curso-form api-url="http://localhost:8000/cursos"></curso-form>
+            
+
+        </section>
+        <section id="inscripciones" class="app-section" style="display:none;">
+            
+            <inscripciones-list api-url= "http://localhost:8000/inscripciones"></inscripciones-list>
+        </section>
+        <section id="acerca-de" class="app-section" style="display:none;">
+            
+            <social-profile></social-profile>
+        </section>
+    </main>
+
+    <my-footer></my-footer>
+
+    <script src="components/header.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="components/nav-bar.js"></script>
+    <script src="components/socialProfile.js"></script>
+    <script src="components/estudiante-list.js"></script>
+    <script src="components/estudiante-form.js"></script>
+    <script src="components/contenido.js"></script>
+    <script src="components/curso-form.js"></script>
+    <script src="components/curso-list.js"></script>
+    <script src="components/inscripciones-list.js"></script>
+    <script src="components/my-inicio.js"></script>
+ 
+</body>
+</html>
