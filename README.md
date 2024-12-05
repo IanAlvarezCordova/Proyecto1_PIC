@@ -115,23 +115,20 @@ GET http://localhost:8000/inscripciones
 El proyecto está organizado en los siguientes directorios:
 
 ```
-/node_modules
-/components
+/API-REST
+    /index.js
+    /otros...
+/JS
     /estudiante-form.js
-    /estudiante-list.js
+    
     /curso-form.js
     /curso-list.js
     /inscripciones-list.js
     /nav-bar.js
-    /my-header.js
-    /my-footer.js
-    /my-inicio.js
-    /contenido.js
+    /otros...
 
 /index.html
-/index.js
-/package.json
-/package-lock.json
+/...html
 
 ```
 
