@@ -16,10 +16,10 @@ app.listen(port, () => {
 const db = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'ianserver',
+    password: '',
     port: 3306,
     database: 'sistema_cursos_estudiantes'
-});
+};
 
 db.connect((err) => {
     if (err) {
@@ -97,6 +97,7 @@ app.get('/cursos', (req, res) => {
         res.status(200).json(result);
     });
 });
+
 
 app.post('/cursos', (req, res) => {
     const { nombre_curso, descripcion } = req.body;
